@@ -26,6 +26,10 @@ body{
 	border: solid 1px #cdcdcd;	
 	background-color: #fff;
 }
+.display{
+	/* .display-none隐藏登陆按钮 */
+	display:none;
+}
 
 /*all end*/
 .top{
@@ -86,7 +90,7 @@ body{
 	border: 1px solid #000;
 	margin:14px 30px;
 	border: solid 1px #cdcdcd;
-	border-radius: 3px;
+	border-radius: 3px;	
 }
 .logo_right a:link,.logo_right a:visited{
 	text-decoration: none;	
@@ -120,11 +124,10 @@ body{
 	text-decoration: none;	
 	border-left: 1px solid #cdcdcd;		
 }
-.nav a:hover,.nav a:active{
+.nav a:hover{
 	box-shadow: inset 0 0 6px 2px #cdcdcd;
 }
 /* nav_1st end */
-
 .nav_2nd {	
 	display: none;
 	color: #505050;
@@ -165,7 +168,6 @@ body{
 	height: 100%;
 	position: relative;	
 	bottom: 50px;
-
 }
 .team_intr{
 	width: 450px;
@@ -176,7 +178,6 @@ body{
 	height: 278px;
 	
 }
-
 .intr_pic{
 	width: 150px;
 	height: 200px;
@@ -206,16 +207,14 @@ body{
 }
 /*pic team end*/
 .mainBody{	
-	margin-top: 308px;
-		
+	margin-top: 308px;		
 }
 .mB_left{
-	width: 302px;	
+	width: 29%;	
 	float: left;
 }
 .mB_right{
-	width: 702px;
-	/* border:1px solid blue; */
+	width: 68.5%;	
 	height: 600px;
 	float: right;
 }
@@ -223,5 +222,23 @@ body{
 	width: 300px;
 	height: 300px;
 	margin-bottom: 14px;	
+}
+.mBL-title{
+	height: 15%;
+	line-height: 45px;
+	border-bottom: 2px solid #08c;
+	text-indent: 20px;
+}
+.mBL-list{
+	line-height: 30px;
+	text-indent: 0px;
+	padding-left: 30px;
+	padding-top:5px;	
+}
+.mBL-title a,.mBL-list a{
+	text-decoration: none;
+}
+.mBL-title a:hover,.mBL-list a:hover{
+	color:#08c;
 }
 

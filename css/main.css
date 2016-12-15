@@ -244,4 +244,14 @@ body{
 	color:#08c;
 }
 /* mB_left结束 */
-mB_right
+.mB_right_title{
+	height:45px;
+	border-bottom:solid 2px #08c;
+	line-height: 45px;
+	text-indent: 20px;
+}
+.mB_right_list{
+	border:solid 1px red;
+	width: 90%;
+	height: 30px;
+}
